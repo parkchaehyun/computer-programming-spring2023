@@ -1,0 +1,11 @@
+[abcd] http://localhost:8080/user/join?id=abcd&passwd=a%40%23%25
+[asdf] http://localhost:8080/user/join?id=asdf&passwd=c%25%25%23%40%25%40%2314ad
+[admin] http://localhost:8080/user/join?id=admin&passwd=admin
+[admin] http://localhost:8080/user/login?id=admin&passwd=admin
+[admin] http://localhost:8080/data/load_log?q=&user=admin
+[admin] http://localhost:8080/data/search?q=snu&user=admin
+[admin] http://localhost:8080/data/search?q=Seoul%20National%20University%20?fileType=pdf&lr=lang_ko&user=admin
+[admin] http://localhost:8080/data/save_data?q=Seoul%20National%20University%20?fileType=pdf&lr=lang_ko&user=admin
+[bbb] http://localhost:8080/user/join?id=bbb&passwd=bbb123
+[bbb] http://localhost:8080/user/leave?id=bbb&passwd=bbb123
+[admin] http://localhost:8080/user/logout?id=admin&passwd=admin
